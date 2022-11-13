@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic;
+}
+body{
+              background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('pd.jpg');
+               height: 100vh;
+              background-size: cover;
+              background-position: center;
+}	 
+ul{
+     float:right;
+     list-style-type:noun;
+     margin-top: 25px;
+     margin-right: -300px;
+     font-size: large;
+}
+ul  li{
+       display: inline-block;
+}
+ ul li a{
+           text-decoration: none;
+            color:yellow;
+            padding: 5px 20px;
+           border: 1px solid transparent;
+          transition: 0.6s ease;
+}
+ul li a:hover{
+             background-color:yellow;
+             color: black; 
+}
+ul li.active a{
+background-color:yellow;
+             color: black; 
+}
+
+.logo img{
+float :left;
+width: 150px;
+margin-left: -300px;
+height: auto;}
+
+.main{
+          max-width: 1300px;
+           margin: auto;
+           /* margin-top: -90px; */
+}
+.title{
+      position:absolute;
+      top: 40%;
+      left: 15%;
+      margin-top: 100px;
+/* transform: translate{40%,-50%}; */
+}
+.title h1{
+color: white;
+font-size: 60px;
+}
+.title1{
+      position:absolute;
+      top: 55%;
+      left: 70%;
+      margin-top: 900px;
+/* transform: translate{-40%,-50%}; */
+}
+
+.title1 h2{
+color: yellow;
+font-size: 25px;
+position:left;
+}
+
+table{
+margin:30px 20px;
+position: 30px 20px ;
+background-color:#515A5A  ; 
+width : 300px;
+height : 300px;
+border-radius : 20px;
+border : 2px solid white;
+padding: 0 ;
+}
+caption { color: white ; font-size : 20px;}
+label{
+font-family : Serif;
+font-size : 30px;
+color: white ;
+padding :10px;
+}
+
+button{
+font-size : 30px;
+color: black;
+background-color: white; }
+
+input{
+border : 2px solid white; }
+
+
+/* slider starts */
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      position: relative;
+  }
+  
+  main{
+      width: 1500px;
+      height: 600px;
+      margin:  auto;
+      margin-top: 300px;
+      /* margin-top: 100px; */
+      box-shadow: 0px 0px 30px grey;
+      position: relative;
+      overflow: hidden;
+      top:200px;
+
+      /* left : 335px; */
+  }
+  
+  .slide{
+      width: 100%;
+      height: 100%;
+      transition: 1s;
+      position: absolute;
+  
+  }
+  
+  
+  
+  .Back , .Next{
+      cursor: pointer;
+      position: absolute;
+      top : 48%;
+      width: auto;
+      margin-top:30px;
+      font-size: 50px;
+      padding: 20Px;
+      color: grey;
+      transition: 0.4s ease;
+      border-radius: 0px 5px 5px 0px;
+      user-select: none;
+      margin-bottom: 30px;
+  }
+  .Back{
+      margin-left : 210px;
+  }
+  .Next{
+      right : 0;
+      margin-right: 210px;
+      border-radius: 4px 0 0 4px;
+  }
+  .Back:hover,.Next:hover{
+      background-color: rgba(0, 0, 0, 0.8);
+  }
